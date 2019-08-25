@@ -14,6 +14,8 @@ public class EmailValidator implements Predicate<String> {
                     Pattern.CASE_INSENSITIVE
             ).asPredicate();
 
+    //hu
+
     @Override
     public boolean test(String email) {
         return IS_EMAIL_VALID.test(email);
